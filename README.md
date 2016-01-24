@@ -12,6 +12,11 @@ chart and traffic by day of week charts
 * `presentation/` contains pdf presentation of findings & recommendations
 
 ## installation
+### clone this repo  
+```bash
+$ git clone https://github.com/dianalam/streetteam-mta-analysis.git
+```
+
 ### dependencies
 Scripts were written in Python 2.7. You'll need the following modules: 
 ```bash
@@ -24,11 +29,6 @@ python-dateutil >= 2.4.2
 To install modules, run:  
 ```bash
 $ pip install <module>
-```
-
-### clone this repo  
-```bash
-$ git clone https://github.com/dianalam/streetteam-mta-analysis.git
 ```
 
 ### running
