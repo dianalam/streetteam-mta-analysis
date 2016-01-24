@@ -4,7 +4,7 @@ to deploy. Recommendations based on analysis of NYC MTA turnstile traffic data a
 
 For more information, see my [blog post](http://dianalam.github.io/2016/01/16/munging-mta.html).
 
-## what's in this repo
+## in this repo
 * `data-munge.py` parses MTA turnstile data and returns total traffic counts for each station in the given time period
 * `analysis.py` integrates philanthropic data and determines optimal stations and days of the week; returns top stations
 chart and traffic by day of week charts
@@ -31,7 +31,7 @@ $ pip install <module>
 $ git clone https://github.com/dianalam/streetteam-mta-analysis.git
 ```
 
-### run scripts
+### running
 ```bash
 # parse data
 $ python data-munge.py
